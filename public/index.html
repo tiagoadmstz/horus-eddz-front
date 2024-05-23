@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDDZ</title>
+    <link rel="icon" type="image/jpeg" href="./assets/icon.jpeg" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="machinery-hall">
+            <img class="machinery-hall-image" src="./assets/DSC_8893.jpg" alt="DSC_8893">
+        </div>
+        <div class="login-container">
+            <div class="login-container-inner">
+                <div class="logo-container">
+                    <img class="logo-image" src="./assets/Cooper-Standard-Logo.png" alt="Cooper-Standard">
+                </div>
+                <div>
+                    <div class="line">
+                        <div></div>
+                        <span>Acesse a sua conta</span>
+                        <div></div>
+                    </div>
+                    <form action="/authenticate" method="post">
+                        <div class="form-fields">
+                            <input type="text" name="username" id="username" placeholder="Username">
+                            <i class="fas fa-search icon"></i>
+                            <input type="password" name="passwd" id="passwd" placeholder="Password">
+                        </div>
+                        <div class="form-buttons">
+                            <button type="submit">Autenticar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-footer">
+                    <span>Desenvolvido por:</span>
+                    <img src="./assets/icon.jpeg" alt="logo-p" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.machinery-hall {
+    overflow: hidden;
+    width: 170%;
+    height: 100%;
+}
+
+.machinery-hall-image {
+    width: 100%;
+    height: 100%;
+}
+
+.login-container {
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.login-container-inner {
+    margin: auto;
+}
+
+.logo-container {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-image {
+    margin: 0 2.5em;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.line div {
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+
+.line span {
+    padding: 0 10px;
+}
+
+.form-fields > input {
+    border-radius: 0.5em;
+    border-color: lightblue;
+    height: 2em;
+    width: 100%;
+    margin: 0.5em 0;
+    font-size: 12px;
+}
+
+input:focus + .icon {
+    color: #007bff;
+}
+
+.icon {
+    z-index: 100;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #aaa;
+}
+
+.form-buttons > button {
+    height: 2.5em;
+    width: 102%;
+    margin: 0.5em 0;
+    border-radius: 0.5em;
+    border-color: blue;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    width: 100%;
+    padding: 0 7em;
+}
+
+.form-footer > span {
+    margin-right: 0.5em;
+}
